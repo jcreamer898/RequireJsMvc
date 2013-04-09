@@ -1,0 +1,1 @@
+require(["jquery"],function(e){console.log("index")}),define("app/main/index",function(){});

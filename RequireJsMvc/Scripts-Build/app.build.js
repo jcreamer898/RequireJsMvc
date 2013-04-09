@@ -1,0 +1,1 @@
+({appDir:"../Scripts",dir:"../Scripts-Build",baseUrl:"./",mainConfigFile:"app/common.js",modules:[{name:"app/common",include:["jquery"]},{name:"app/main/index",exclude:["app/common"]}],onBuildRead:function(e,t,n){return e==="app/common"?n.replace("Scripts","Scripts-Build"):n}});
