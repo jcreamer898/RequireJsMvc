@@ -20,10 +20,14 @@ namespace RequireJsMvc.Helpers
         public static MvcHtmlString RequireJs(this HtmlHelper helper, string common, string module)
         {
             var require = new StringBuilder();
+#if (DEBUG)
+            string jsLocation = "Scripts/";
+#else
+            string jsLocation = "Scripts-build/";
+#endif
 
-            string jsLocation = ConfigurationManager.AppSettings["JsLocation"];
 
-            require.AppendLine("require( [ \"" + jsLocation + common + "\" ], function() {");
+            require.AppendLine("require( [ \"/" + jsLocation + common + ".js\" ], function() {");
             require.AppendLine("    require( [ \"" + module + "\"] );");
             require.AppendLine("});");
 

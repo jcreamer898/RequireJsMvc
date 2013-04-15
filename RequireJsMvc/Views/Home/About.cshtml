@@ -1,7 +1,13 @@
-﻿@{
+﻿@using RequireJsMvc.Helpers
+@{
     ViewBag.Title = "About";
 }
-
+@section scripts
+{
+    <script>
+        @Html.RequireJs("app/common","app/main/about");
+    </script>
+}
 <hgroup class="title">
     <h1>@ViewBag.Title.</h1>
     <h2>@ViewBag.Message</h2>

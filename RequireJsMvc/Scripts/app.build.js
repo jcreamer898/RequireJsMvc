@@ -10,7 +10,7 @@
         name: "app/main/index",
         exclude: [ "app/common" ]
     }],
-    onBuildRead: function (moduleName, path, contents) {
+    onBuildWrite: function (moduleName, path, contents) {
         //Always return a value.
         //This is just a contrived example.
         if (moduleName === "app/common") {

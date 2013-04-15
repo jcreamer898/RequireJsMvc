@@ -1,5 +1,5 @@
 ﻿require.config({
-    baseUrl: "Scripts/",
+    baseUrl: "/Scripts/",
     paths: {
         "jquery": "jquery-1.9.1"
     }
