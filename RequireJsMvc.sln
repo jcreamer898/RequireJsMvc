@@ -10,6 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{906581
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RequireJsMvc.Single", "RequireJsMvc.Single\RequireJsMvc.Single.csproj", "{8DC25BFC-6222-45E4-9E9E-BD2490573B73}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +22,10 @@ Global
 		{BA0F4A5E-D6DF-43F4-B145-B12594A53973}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA0F4A5E-D6DF-43F4-B145-B12594A53973}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA0F4A5E-D6DF-43F4-B145-B12594A53973}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DC25BFC-6222-45E4-9E9E-BD2490573B73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DC25BFC-6222-45E4-9E9E-BD2490573B73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DC25BFC-6222-45E4-9E9E-BD2490573B73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DC25BFC-6222-45E4-9E9E-BD2490573B73}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

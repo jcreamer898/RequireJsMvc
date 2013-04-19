@@ -26,10 +26,11 @@ namespace RequireJsMvc.Helpers
             string jsLocation = "Scripts-build/";
 #endif
 
-
-            require.AppendLine("require( [ \"/" + jsLocation + common + ".js\" ], function() {");
-            require.AppendLine("    require( [ \"" + module + "\"] );");
+            require.AppendLine("<script>");
+            require.AppendLine(string.Format(@"require( [ ""/{0}{1}.js"" ], function() {{", jsLocation, common));
+            require.AppendLine(string.Format("    require( [ \"{0}\"] );", module));
             require.AppendLine("});");
+            require.AppendLine("</script>");
 
             return new MvcHtmlString(require.ToString());
         }
