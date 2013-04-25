@@ -9,6 +9,9 @@
     }, {
         name: "app/main/index",
         exclude: [ "app/common" ]
+    }, {
+        name: "app/main/about",
+        exclude: ["app/common"]
     }],
     onBuildWrite: function (moduleName, path, contents) {
         //Always return a value.

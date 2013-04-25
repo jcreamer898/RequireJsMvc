@@ -8,3 +8,7 @@ app/common.js
 app/main/index.js
 ----------------
 app/main/index.js
+
+app/main/about.js
+----------------
+app/main/about.js
