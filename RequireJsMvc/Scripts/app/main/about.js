@@ -1,3 +1,3 @@
-﻿require(["jquery"], function ($) {
+﻿define(["jquery"], function ($) {
     console.log("about");
 });

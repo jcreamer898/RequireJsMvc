@@ -1,5 +1,5 @@
 ﻿({
-    appDir: "../Scripts",
+    appDir: "./",
     dir: "../Scripts-Build",
     baseUrl: "./",
     mainConfigFile: "app/common.js",

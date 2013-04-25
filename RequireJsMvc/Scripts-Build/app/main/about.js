@@ -1,1 +1,1 @@
-require(["jquery"],function(e){console.log("about")}),define("app/main/about",function(){});
+define("app/main/about",["jquery"],function(e){console.log("about")});
